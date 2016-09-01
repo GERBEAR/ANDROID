@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="@drawable/riddleicon2"
+    tools:context="com.gerard.academytutorialapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lime"
+        android:text="@string/greeting_message"
+        android:id="@+id/greeting_message"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/enter_name_field"
+        android:hint="@string/enter_name_hint"
+        android:textColor="@color/lime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/main_screen_button_text"
+        android:onClick="onButtonClicked"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:background="@color/lime"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/DisplayImageActivity"
+        android:onClick="onViewImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/enter_form_details"
+        android:onClick="onFormClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Click Here For Grid"
+        android:onClick="onGridButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Academy Tutorial App</string>
+
+    <string name="greeting_message">Detective!, Welcome To My Riddler App!</string>
+
+    <string name="enter_name_hint">Enter Your Name...</string>
+
+    <string name="main_screen_button_text">Click Here</string>
+
+    <string name="DisplayImageActivity">Riddle Me This</string>
+
+    <string name="enter_form_details">Click Here To Enter Details</string>
+
+    <string name="DisplayFormActivity">Sumbit Details</string>
+
+    <string name="Name_label">Name:</string>
+
+    <string name="Age_label">Age:</string>
+
+    <string name="Email_Label">Email:</string>
+
+    <string name="Phone_Label">Phone:</string>
+
+
+</resources>

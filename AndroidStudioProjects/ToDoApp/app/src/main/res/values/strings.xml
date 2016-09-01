@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+
+    <string name="welcome_banner">To-Do App!</string>
+
+    <string name="add_new_activity">Tap Here For New To-Do</string>
+
+    <string name="enter_title_hint">Title:</string>
+
+    <string name="enter_desc_hint">Description:</string>
+
+    <string name="enter_urgency_hint">Urgency:</string>
+
+    <string name="button_text_submit">SUBMIT</string>
+
+    <string name="tasks_list_heading">Task List</string>
+
+    <string name="tasks_view_all_tasks">View All Tasks</string>
+
+    <array name="urgency_field_contents">
+        <item>Very Urgent</item>
+        <item>Urgent</item>
+        <item>Not Urgent</item>
+    </array>
+
+</resources>
